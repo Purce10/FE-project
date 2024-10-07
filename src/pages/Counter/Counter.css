@@ -1,0 +1,140 @@
+.counter-container {
+    background-color: var(--primary);
+}
+
+.leg-selector {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.leg-dropdown {
+    height: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue);
+    margin-right: 16px;
+    padding: 4px;
+    color: white;
+}
+
+.leg-selector-text {
+    margin-right: 16px;
+}
+
+.reset-btn {
+    width: 96px;
+    height: 24px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+}
+
+.reset-btn:active {
+    transform: translateY(1px);
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.counter-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 64px;
+    width: auto;
+}
+
+.counter-avg {
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+}
+
+.leg{
+    font-size: 22px;
+}
+
+.leg-icon{
+    margin: 0 64px;
+}
+
+.leg-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 64px 0 0 0;
+}
+
+.player-score {
+    margin: 64px;
+    font-size: 72px;
+    position: relative;
+}
+
+.player-tag {
+    margin: 64px 64px 0 64px;
+}
+
+.player-avg {
+    margin: 0 64px 64px 64px;
+}
+
+.avg-icon {
+    margin: 0;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.player-heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.player-one {
+    width: 50%;
+}
+
+.player-two {
+    width: 50%;
+}
+
+.player-indicator {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+
+.one-indicator{
+    top: 40%;
+    left: -40%;
+}
+
+.two-indicator {
+    top: 40%;
+    right: -40%;
+}

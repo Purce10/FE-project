@@ -1,0 +1,18 @@
+.upgrade-button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.upgrade-button:hover {
+    background-color: #48383f;
+}
+
+.upgrade-button:active {
+    transform: translateY(1px)
+}

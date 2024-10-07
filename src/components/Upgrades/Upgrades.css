@@ -1,0 +1,58 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    padding: 64px 0;
+    background-color: var(--primary);
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+}
+
+.card{
+    height: 525px;
+    width: 450px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.card-1 {
+    margin-right: 80px;
+    background-color: #F8F0FB;
+
+}
+
+.card-2 {
+    margin-left: 80px;
+    background-color: #CAD5CA;
+}
+
+.card-heading {
+    font-size: 22px;
+    margin-bottom: 24px;
+} 
+
+.card-price {
+    font-size: 54px;
+    margin-bottom: 4px;
+}
+
+.card-price-text {
+    color: black;
+    font-size: 16px;
+}
+
+.card-copy {
+    color: black;
+    font-size: 16px;
+}
+
+ul{
+    margin-bottom: 48px;
+}

@@ -1,0 +1,65 @@
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    border-radius: 5px;
+    background-color: var(--offwhite);
+    padding: 32px;
+}
+
+.modal-text {
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    padding: 0 32px;
+}
+
+.modal-button {
+    background-color: var(--indigo);
+    font-size: 16px;
+    height: 48px;
+    width: 64px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.modal-button:hover {
+   background-color: #5918DA;;
+}
+
+.bullseye {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--indigo);
+    position: absolute;
+    top: -10%;
+    box-shadow: 0 0 0 20px var(--blue);
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1s fadeInUp;
+  }

@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.Body {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}

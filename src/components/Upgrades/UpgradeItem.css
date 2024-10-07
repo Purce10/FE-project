@@ -1,0 +1,13 @@
+.upgrade {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    margin-bottom: 12px;
+}
+
+.upgrade-text{
+    list-style: none;
+    margin-left: 8px;
+    margin-top: 4px;
+}
