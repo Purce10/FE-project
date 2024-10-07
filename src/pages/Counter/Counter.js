@@ -132,14 +132,14 @@ const Counter = () => {
           <option value='6'>11 Legs</option>
         </select>
         <button className='reset-btn' onClick={() => resetHandler()}>Reset Game</button>
-      </div>xsxss
+      </div>
       <div className='player-container'>
         <div className='player-one player'>
             <div className='player-heading'>
                 <p className='player-tag'>{playerOneLegs === winningLegs && '\u{1F451}'} Player 1</p>
             </div>
             <div className='counter-player1 player-score'>
-              {currentPlayer ? <div className='player-indicator one-indicator'/> : null}xs
+              {currentPlayer ? <div className='player-indicator one-indicator'/> : null}
               {playerOneScore}
             </div>
             <div className='player-avg '>Avg: {playerOneDartsThrown === 0 ? '0' : ((playerOneTotalScore / playerOneDartsThrown) * 3).toFixed(2)}</div>
